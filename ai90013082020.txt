@@ -159,6 +159,13 @@ Clean missing data-> missing values can be 1) Replaced, 2) DROPPED!
 	1) Mean, 2) Median, 3) Mode, 4) Custom substitution 
 
 
+https://notebooks.azure.com/
+
+text analytics: https://shinchan-shanuapril.notebooks.azure.com/j/notebooks/textanalysis.ipynb
+Computer Vision: https://shinchan-shanuapril.notebooks.azure.com/j/notebooks/computervision.ipynb
+Face APi:https://azure.microsoft.com/en-in/services/cognitive-services/face/#demo
+Language Understanding for chatbots: https://www.luis.ai/
 
 
+https://westus.api.cognitive.microsoft.com/luis/prediction/v3.0/apps/c056663f-0302-4a6b-bab3-84255ade1651/slots/production/predict?subscription-key=b5d608a3d2b84cc68d8192559da9865e&verbose=true&show-all-intents=true&log=true&query=YOUR_QUERY_HERE
 
