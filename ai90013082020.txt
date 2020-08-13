@@ -1,0 +1,164 @@
+On Premises-> most common setup in Enterpises historically!
+
+- windows will never update?
+- systems never crash?
+- power outages?
+- no coffee spills, no rabbits 
+- no earthquakes, floods? 
+
+
+- SOLUTION: DO NOT OWN but transfer the risk!!!
+In cloud-> you DO NOT OWN RESOURCES, you only RENT them 
+	- PAY Only for what you use!!!
+
+if I was a CALCULATOR-> DO I REALLY need lot of RAM???
+
+if i was a DB-> i need more STORAGE and RAM than CPU!!!
+
+When you have VM-> you are essentially WASTING resources!!!
+you may take 1GHz CPU, 1 GB ram, with 20GB harddisk for calculator!
+	-> 900 Mhz, 500Mb and maybe 19 GB wasted
+		-> YOU ARE PAYING FOR THEM BUT NOT USING!!!!
+
+Second approach-> PAY ONLY FOR WHAT YOU USE!!!
+	-> services broken into COMPUTE or STORAGE services only!!!
+	-> billing, scalability, performance, security everything
+	is managed separately!!!!! 
+
+
+Break + Lunch timings:
+	-> at 11:30
+	-> lunch at 1:30 
+	-> break at 4:15
+
+
+Titration, salt analysis, vernier calp, pendulum-> Whatever experiment
+-> YOU DID IT MULTIPLE TIMES!!!
+-> YOU RUN EXPERIMENTS MULTIPLE TIMES
+	-> EACH RUN would have given you diff results
+		-> 1st run-> 2 mg of NaHCO3
+		-> 2nd run-> 2.1 mg 
+		-> 3rd => 2.2 
+		-> best of 3-> 2.1 + 2.2 / 2 = 2.15 
+
+in AI-> we create EXPERIMENTS. Each exp has RUNS.
+	Each RUN is an AI attempt to create a y=mx +c
+	each y=mx +c will have different results; some better than other
+	-> we will just select the best Y=mx+c 
+	-> WE DOn't KNOW and don't CARE how it was done
+		-> it became Azure's problem
+		-> ALl we need to do-> is CONFIGURE 
+
+
+You control the number of MACHINES required to run these experiments
+the number of machines you have-> the number of PARALLEL RUNS you can
+		execute!!!!
+Max concurrent runs can be controlled by Number of MACHINES available
+
+who is faster-> CPU or GPU 
+		40%    60%
+
+rephrase-> 
+100 potatoes
+	p1-> 10 potatoes per hour
+	p2-> 5 pot/hour-> but 10 such people!!
+who will finish potatoes faster???
+	-> P2 team!
+p2-> GPU -> SLOWER but MUCH LARGER THROUGHPUT!!
+CPU-> faster but much smaller instruction (mov ax, bx int21 h) 
+****************
+A (teacher)-> B (a kid)-> trying to teach table of 2 
+(A-> learning, B-> inference) -> A-> dev/test, B-> production
+-> A needs to know the table of 2 so that B can learn it!!!
+	-> We need ENTIRE DATA 
+-> first i teach you simple math, and then i ask you simple math
+	-> i teach, 2X1= 2, 2X3 = 6, 2X4=8
+	-> i ask you, 2 X 2= ? 
+	-> B tells 5!!!
+	-> A tells NO!!! answer is 4
+	-> b calculates the mistake B made, and next guess will be 
+	better
+	-> i ask you, 2X2= ?
+	-> B tells 4!
+	-> i ask you, 2X16 = 13.	-> NO!!!
+	-> CYCLE repeats!!!! 
+	-> Every time, m and c of y=mx+c is adjusted to get new
+	values of y, which are compared with answers that we already
+	know! (TRAINING)
+	-> once you are confident, that guessues are in tolerable
+	error region, you (m,c)put it into production (INFERENCE) 
+	m-> weight, c-> bias 
+
+
+f(x) = y = mx + c
+	=> m is a weight multiplied into input x
+
+100+ in audience-> 1 person on dinner 
+	-> how much $$$$
+	-> how much time 
+cost_function = f(time, money) 
+	= a*time + b*money + c
+	=> c was very small adjustment
+		-> because we weren't getting the answer we wanted
+		-> this tiny change is called a BIAS
+	=> a, b the numbers multiplied to your i/p-> WEIGHTS 
+****************
+https://aka.ms/no-code-automl
+
+
+I can hear my own voice :) I guess some issue with GoToMeeting
+
+
+
+
+
+
+
+
+
+
+out of course:
+https://www.youtube.com/watch?v=CPIbGnBQcJY
+https://www.youtube.com/watch?v=lirxffbj5CY
+https://notebooks.azure.com/
+eVERthing is APPROX not precise in AI-> https://en.wikipedia.org/wiki/Double-precision_floating-point_format 
+
+-> Where should I go for vacation next? (Random FOREST) 
+
+p1-> how much $$$$?-> Go to your society gate	(DecisionTree)
+p2-> have you visited before?-> Bora bora (DecisionTree)
+p3-> solo or group? -> bandar seri begawan (DecisionTree)
+p4-> activities? -> bora bora (DecisionTree)
+
+2 algos-> Bora Bora -> My answer!!!
+ML is done on CLUSTERS-> always invove multiple machines!
+	-> For better, majority, democratic answers 
+
+
+Don't worry about AUDIO-> Before taking LUNCH break, let me quickly
+SHOW AUTOMATED ML CONFIGS
+Then hopefully, post lunch, audio issues should be resolved!
+
+CPU-> statistical, CSV, excel (our use case)
+GPU-> images, sound, video, neural networks (deep learning) 
+
+CPUS-> allocation of RAM, Processor(no. of vCPUs) and DISK
+GPU-> size of GPU (nVidia tesla)
+
+Dedicated-> more expensive, but follow SLA. SHould be used for PRODUCtion
+	(such as Kubernetes, or if you want these clusters to be
+	always available) 
+LowPriority-> CHEAPER but can be taken back anytime, NO SLA followed,
+	SHOULD be used only for TRAINING algo NEVER for production
+	or user load
+
+
+Row level cleaning 
+Clean missing data-> missing values can be 1) Replaced, 2) DROPPED!
+	if replacing
+	1) Mean, 2) Median, 3) Mode, 4) Custom substitution 
+
+
+
+
+
